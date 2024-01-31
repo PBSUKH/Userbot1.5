@@ -16,10 +16,10 @@ PHONE_NUMBER_TEXT = (
 async def hello(client: app, message):
     buttons = [
            [
-                InlineKeyboardButton("✘ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="t.me/TheUpdatesChannel"),
+                InlineKeyboardButton(" 🕊️⃝‌ٖٖٖٖ ‌ٖٖٖٖٖ𝐁α∂ ❤️ᥫ᭡፝֟፝֟", url="t.me/II_BAD_BBY_II"),
             ],
             [
-                InlineKeyboardButton("✘ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="t.me/TheSupportChat"),
+                InlineKeyboardButton("🕊️⃝‌ٖٖٖٖ ‌ٖٖٖٖٖ𝐔ρ∂αтє ❤️ᥫ᭡፝֟፝֟", url="t.me/ll_THE_BAD_BOT_ll"),
             ],
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -35,7 +35,7 @@ async def clone(bot: app, msg: Message):
     try:
         await text.edit("Booting Your Client")
                    # change this Directry according to ur repo
-        client = Client(name="Melody", api_id=API_ID, api_hash=API_HASH, session_string=phone, plugins=dict(root="Zaid/modules"))
+        client = Client(name="Melody", api_id=API_ID, api_hash=API_HASH, session_string=phone, plugins=dict(root="Pbx1.0/modules"))
         await client.start()
         user = await client.get_me()
         await msg.reply(f"Your Client Has Been Successfully As {user.first_name} ✅.")
