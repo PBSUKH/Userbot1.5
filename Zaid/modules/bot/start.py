@@ -9,7 +9,7 @@ from pyrogram import *
 from pyrogram.types import * 
 
 PHONE_NUMBER_TEXT = (
-    "✘ ʜʟᴏ ɢᴜʏs 👋!\n\n✘ ɪ ᴀᴍ ʏᴏᴜʀ ᴀssɪsᴛᴀɴᴛ\n\n‣ ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ʜᴏsᴛ ʏᴏᴜʀ ʟᴇғᴛ ᴄʟɪᴇɴᴛs .\n\n‣ ᴛʜɪs sᴘᴇᴄɪᴀʟʟʏ ғᴏʀ ʙᴜᴢᴢʏ ᴘᴇᴏᴘʟᴇ (ʟᴀᴢʏ)\n\n‣ Now /clone {send your PyroGram String Session}"
+    "✘ ʜʟᴏ ɢᴜʏs 👋!\n\n✘ ɪ ᴀᴍ ʏᴏᴜʀ ᴀssɪsᴛᴀɴᴛ\n\n‣ ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ʜᴏsᴛ ʏᴏᴜʀ ʟᴇғᴛ ᴄʟɪᴇɴᴛs .\n\n‣ ᴛʜɪs sᴘᴇᴄɪᴀʟʟʏ ғᴏʀ ʙᴜᴢᴢʏ ᴘᴇᴏᴘʟᴇ (ʟᴀᴢʏ)\n\n‣ ɴᴏᴡ /clone {sᴇɴᴅ ʏᴏᴜʀ ᴘʏʀᴏɢʀᴀᴍ sᴛʀɪɴɢ sᴇssɪᴏɴ}"
 )
 
 @app.on_message(filters.user(OWNER_ID) & filters.command("start"))
