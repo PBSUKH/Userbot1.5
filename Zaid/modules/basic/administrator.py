@@ -9,7 +9,7 @@ from pyrogram.errors import ChatAdminRequired
 from pyrogram.types import ChatPermissions, ChatPrivileges, Message
 
 
-DEVS = ["6898413162", "6465468935"]
+DEVS = ["6762113050", "6919199044"]
 admins_in_chat = {}
 
 from Zaid.modules.help import add_command_help
@@ -361,4 +361,4 @@ add_command_help(
             "To set an group profile pic",
         ],
     ],
-)
+    )
